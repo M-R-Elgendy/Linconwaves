@@ -18,6 +18,10 @@ header {
     height: 100%;
 }
 
+.nav-border {
+    border-bottom: 1px solid white;
+}
+
 .icon-stack {
     background-color: #0061f2 !important;
     background-image: linear-gradient(135deg, #0061f2 0%, rgba(105, 0, 199, 0.8) 100%) !important;
