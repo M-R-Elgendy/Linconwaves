@@ -12,7 +12,6 @@
 
     <!--Favicons-->
     <link href="asset/img/logo.png" rel="icon">
-    <!-- <link href="asset/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
 
     <!--Google Font-->
     <link
@@ -21,21 +20,16 @@
 
     <!--Vendor Css Files -->
     <link href="asset/css/main.css" rel="stylesheet">
-    <link href="asset/vendor/animate.css/animate.min.css" rel="stylesheet">
     <link href="asset/vendor/Bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="asset/vendor/aos/aos.css" rel="stylesheet">
 </head>
 
 <body>
-
-
-
-
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top" id="mainNav"
         style="border-bottom:1px solid white ;">
         <div class="container">
-            <a class="navbar-brand" href="/index.html">
+            <a class="navbar-brand" href="index.html">
                 <img src="asset/img/logo.png" alt="logo" class="brand-logo" /> Linconwaves
             </a>
 
@@ -554,25 +548,7 @@
     <script src="asset/vendor/Bootstrap/js/bootstrap.min.js"></script>
     <script src="asset/vendor/jquery/jquery-3.6.0.min.js"></script>
     <script src="asset/vendor/aos/aos.js"></script>
-
-    <script>
-        $(function () {
-            AOS.init();
-        });
-
-        $(document).ready(function () {
-            $(window).scroll(function () {
-                if ($(window).scrollTop() > $(window).height()) {
-                    $("#mainNav").removeClass("bg-transparent navbar-dark").addClass(
-                        "bg-light navbar-light");
-                } else {
-                    $("#mainNav").addClass("bg-transparent navbar-dark").removeClass(
-                        "bg-light navbar-light");
-                }
-
-            })
-        })
-    </script>
+    <script src="asset/js/main.js"></script>
 
 </body>
 
