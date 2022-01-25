@@ -174,4 +174,9 @@ a {
     opacity: 0.5;
 }
 
+.carousel-caption {
+    text-align: left !important;
+    bottom: 19rem !important;
+}
+
 /*  */
